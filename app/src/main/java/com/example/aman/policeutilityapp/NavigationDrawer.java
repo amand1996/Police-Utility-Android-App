@@ -12,6 +12,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.Spinner;
 
 public class NavigationDrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -97,5 +99,19 @@ public class NavigationDrawer extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void submitForm(View button) {
+        final EditText nameField = (EditText) findViewById(R.id.name);
+        String name = nameField.getText().toString();
+
+        final EditText phoneField = (EditText) findViewById(R.id.phone);
+        String phone = phoneField.getText().toString();
+
+        final Spinner police_station_field = (Spinner) findViewById(R.id.police_station_spinner);
+        String police_station = police_station_field.getSelectedItem().toString();
+
+        final Spinner priority_spinner_field = (Spinner) findViewById(R.id.priority_spinner);
+        String priority = priority_spinner_field.getSelectedItem().toString();
     }
 }

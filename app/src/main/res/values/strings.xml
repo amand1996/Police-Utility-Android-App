@@ -13,4 +13,6 @@
     <string name="priority1">Normal</string>
     <string name="priority2">Important</string>
     <string name="priority3">Urgent</string>
+    <string name="person_name">Name</string>
+    <string name="phone_number">Contact No.</string>
 </resources>
