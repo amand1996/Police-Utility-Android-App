@@ -5,4 +5,12 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="police_station1">Ranjhi</string>
+    <string name="police_station2">Vijaynagar</string>
+    <string name="police_station3">Shaktinagar</string>
+    <string name="police_station4">Jabalpur</string>
+    <string name="priority1">Normal</string>
+    <string name="priority2">Important</string>
+    <string name="priority3">Urgent</string>
 </resources>

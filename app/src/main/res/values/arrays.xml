@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="police_station_list">
+        <item>@string/police_station1</item>
+        <item>@string/police_station2</item>
+        <item>@string/police_station3</item>
+        <item>@string/police_station4</item>
+    </string-array>
+    <string-array name="priority_list">
+        <item>@string/priority1</item>
+        <item>@string/priority2</item>
+        <item>@string/priority3</item>
+    </string-array>
+</resources>
